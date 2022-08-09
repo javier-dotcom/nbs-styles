@@ -14,6 +14,13 @@
                             background-image: linear-gradient(#444, #111);
                         }
                         
+                        @media (max-width: 788px) {
+                            .encabezado {
+                                width: 90%;
+                                margin: auto;
+                            }
+                        }
+                        
                         .encabezado a {
                             cursor: pointer;
                             border-bottom: 3px solid transparent;
@@ -38,9 +45,14 @@
                             .encabezado {
                                 display: flex;
                                 flex-direction: column;
+                                align-items: center;
                             }
                             .encabezado1 {
                                 margin-bottom: 5px;
+                            }
+                            .encabezado1 img {
+                                width: 80%;
+                                margin-left: 10%;
                             }
                         }
                         /*Fin Encabezado*/
@@ -192,6 +204,7 @@
                                 flex-direction: column;
                                 align-items: center;
                                 padding-bottom: 10px;
+                                width: 90%;
                             }
                         }
                         /*fin videos*/
@@ -272,7 +285,7 @@
                         }
                         
                         .fondofijo h4 {
-                            width: 15%;
+                            width: 45%;
                         }
                         
                         .fondofijo p {
@@ -305,10 +318,10 @@
                                 flex-direction: column;
                                 width: 100%;
                                 margin: auto;
+                                align-items: center;
                             }
                             .fondofijo1 img ul {
                                 width: 100%;
-                                align-items: center;
                             }
                         }
                         /* .fondofijo p {
@@ -362,6 +375,8 @@
                             .foot {
                                 flex-direction: column;
                                 align-items: center;
+                                width: 90%;
+                                margin: auto;
                             }
                             .secciones,
                             .centro-footer {
