@@ -401,6 +401,7 @@
                                         align-items: center;
                                         width: 90%;
                                         margin: auto;
+                                        height: 900px;
                                     }
                                     .secciones,
                                     .centro-footer {
@@ -436,6 +437,7 @@
                                     border: 1px transparent solid;
                                     cursor: pointer;
                                     margin-top: 20px;
+                                    margin: 2px;
                                 }
                                 
                                 .centro-footer-svg svg:hover {
@@ -447,12 +449,14 @@
                                 
                                 .footer-fin {
                                     display: flex;
+                                    padding-top: 20px;
                                 }
                                 
                                 .secciones {
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: space-evenly;
+                                    height: 300px;
                                 }
                                 
                                 .foot li {
@@ -461,6 +465,10 @@
                                 
                                 .secciones li {
                                     color: #5A8A8A;
+                                }
+                                
+                                .secciones img {
+                                    margin-bottom: 20px;
                                 }
                                 /*.cinco {
            
