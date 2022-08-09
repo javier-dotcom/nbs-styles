@@ -226,7 +226,9 @@
                                         max-height: 200px;
                                     }
                                     .imgrespon {
-                                        max-height: 250px;
+                                        width: 60%;
+                                        max-height: 200px;
+                                        margin-left: 20%;
                                     }
                                 }
                                 
